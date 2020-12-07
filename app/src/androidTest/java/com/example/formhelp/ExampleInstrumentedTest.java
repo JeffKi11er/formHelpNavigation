@@ -1,4 +1,4 @@
-package com.example.appnewst3h;
+package com.example.formhelp;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.appnewst3h", appContext.getPackageName());
+        assertEquals("com.example.formhelp", appContext.getPackageName());
     }
 }

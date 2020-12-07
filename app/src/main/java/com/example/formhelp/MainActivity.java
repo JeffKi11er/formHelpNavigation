@@ -1,4 +1,4 @@
-package com.example.appnewst3h;
+package com.example.formhelp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.appnewst3h.fragment.FragmentPage;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 drawerLayout.openDrawer(nav);
             }
         });
-        getSupportFragmentManager().beginTransaction()
-            .replace(R.id.content_,new FragmentPage()).commit();//phien de tao fragment
+//        getSupportFragmentManager().beginTransaction()
+//            .replace(R.id.content_,new FragmentPage()).commit();//phien de tao fragment
     }
 }
